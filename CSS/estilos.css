@@ -1,0 +1,30 @@
+table{
+    background-color:#ba0403
+}
+td{
+    text-align: center;
+}
+p{
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+label{
+    font-family: Cambria;
+}
+input{
+    text-align: center;
+    width: 400px;
+    height: 25px;
+    align-content: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+tr{
+    align-content: center;
+}
