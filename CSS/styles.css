@@ -28,3 +28,31 @@ a{
 tr{
     align-content: center;
 }
+.menu{
+    position: fixed;
+    background-color: #ba0403;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+.icone{
+    width: 9%;
+    --border:5px solid violet;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 265px;    
+}
+.iconemain{
+    width: 9%;
+    --border:5px solid violet;
+    padding: 0px 20px 0px 20px;
+
+}
+html, body {
+    min-height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.rodape{
+	--position:absolute;
+	bottom:0;
+	width:100%;
+}
