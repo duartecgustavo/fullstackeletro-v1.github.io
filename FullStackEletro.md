@@ -4,7 +4,7 @@ Aqui neste repositório está hospedado meu **primeirissimo** site em HTML.
 
 Se trata de um projeto da matéria de HTML do curso de FullStack oferecido pela RecodePró.
 
-Se trata deum **protótipo**  de site de compra de **equipamentos eletrônicos** para sua casa.
+Se trata deum **protótipo**  de site de compra de **equipamentos eletrodomesticos** para sua casa.
 
 Cliando aqui você será redirecionado para o site: [:link:](https://duartecgustavo.github.io/fullstackeletro.github.io/)
 
