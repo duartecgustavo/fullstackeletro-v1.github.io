@@ -52,7 +52,7 @@ html, body {
     padding: 0px 0px 0px 0px;
 }
 .rodape{
-	--position:absolute;
+	--position:fixed;
 	bottom:0;
 	width:100%;
 }
