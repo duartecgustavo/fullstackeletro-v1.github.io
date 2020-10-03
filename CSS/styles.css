@@ -56,3 +56,71 @@ html, body {
 	bottom:0;
 	width:100%;
 }
+.produtos{
+    width: 100%;
+    height: 920px;
+    background-color: gray;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 0%;
+}
+.sessoes{
+    height: 920px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.sessoes-titulo{
+    font-size: 30px;
+    margin-left: 20px;
+    margin: 30px 20px 30px 20px;
+}
+.sessoes-categoria{
+    font-size: 25px;
+    margin-left: 25px;
+    margin: 30px 20px 30px 20px;
+}
+.produtosprod{
+    text-align: center;
+    height: 920px;
+    width: 80%;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 0%;
+    font-size: 0%;
+    vertical-align: bottom;
+}
+.prod1, .prod2, .prod3, .prod4, .prod5, .prod6, .prod7 ,.prod8,.prod9,.prod10,.prod11, .prod12{
+    display: inline-block;
+    width: 20%;
+    height: 25%;
+    background-color: white;
+    --border: 2px violet solid;
+    margin: 30px 20px 30px 20px;
+    vertical-align: bottom;
+    --border: 3px black solid;
+}
+.fogao-atlas, .fogao-consul, .Geladeira_Brastemp_Prata, .Geladeira_Consul,
+.Geladeira_Brastemp_Branca,.Lava_Roupa_Brastemp, .Lava_Roupa_Philco, .Lavadoura_Brastemp, 
+.Freezer_Electrolux, .Micro_ElectroLux, .Micro_Ondas_Consul, .Micro_Philco{
+    width: 60%;
+    height: 60%;
+}
+.produtos .titulo-prod{
+    background-color: white;
+}
+.preco-cort{
+    font-size: 12px;
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+    text-decoration: line-through;
+}
+.preco-venda{
+    font-size: 16px; 
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+
+}
