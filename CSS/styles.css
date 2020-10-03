@@ -122,5 +122,10 @@ html, body {
     font-size: 16px; 
     background-color: white;
     margin: 3px 0px 5px 0px;
+}
 
+.botao-coment{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 406px;
+    height: 30px;
 }
