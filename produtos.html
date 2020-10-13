@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +13,20 @@
     <script src="./JS/eventos.js"></script>
 
 </head>
+
 <body>
-    
+
     <!--MENU-->
     <div class="menu">
         <nav>
-            <a href="index.html" target="_blank"><img style="font-family: Comic Sans MS;" class="logomenumain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
-            <a href="produtos.html"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
-            <a href="lojas.html" target="_blank"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
-            <a href="contato.html" target="_blank"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
+            <a href="index.html" target="_blank"><img style="font-family: Comic Sans MS;" class="logomenumain"
+                    width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
+            <a href="produtos.html"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a>
+            </td>
+            <a href="lojas.html" target="_blank"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg"
+                    alt="LOJAS"></a></td>
+            <a href="contato.html" target="_blank"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg"
+                    alt="CONTATOS"></a></td>
         </nav>
     </div>
 
@@ -28,116 +34,113 @@
         <!--LOGO PAGINA-->
         <br> <br> <br> <br>
         <!--LOGO PAGINA-->
-        <section class="logo">
+        <section class="logo" style="margin-bottom: 0px;">
             <img class="imglogo" src="imgs/produtoslogo.jpg">
         </section>
 
-        <hr>
-        <section><!-- PAINEL LATERAL -->
-            <div class="produtos">
-                <div class="sessoes">
-                    <h3 class="sessoes-titulo">CATEGORIAS:</h3>
-                    <ul class="sessoes-categoria">
-                        <li onclick="exibir_categoria('geladeira')" style="cursor:pointer">GELADEIRAS (3)</li>
-                        <li onclick="exibir_categoria('fogao')" style="cursor:pointer">FOGÕES (2)</li>
-                        <li onclick="exibir_categoria('lavaroupa')" style="cursor:pointer">LAVA-LOUÇA (1)</li>
-                        <li onclick="exibir_categoria('microondas')" style="cursor:pointer">MICRO-ONDAS (2)</li> 
-                        <li onclick="exibir_categoria('freezer')" style="cursor:pointer">FREEZER (3)</li>
-                    </ul>
+        <section>
+            <!-- BARRA DE CATEGORIAS -->
+            <div class="prodCategoriaBarra">
+                <p class="categoria" onclick="exibir_categoria('todos')" style="cursor:pointer">TODOS(12)</p>
+                <p class="categoria" onclick="exibir_categoria('geladeira')" style="cursor:pointer">GELADEIRAS(3)</p>
+                <p class="categoria"onclick=" exibir_categoria('fogao')" style="cursor:pointer">FOGÕES(2)</p>
+                <p class="categoria"onclick=" exibir_categoria('lavaroupa')" style="cursor:pointer">LAVA-LOUÇA (1)</p>
+                <p class="categoria" onclick="exibir_categoria('microondas')" style="cursor:pointer">MICRO-ONDAS (2)</p>
+                <p class="categoria" onclick="exibir_categoria('freezer')" style="cursor:pointer">FREEZER (3)</p>
+            </div>
+
+            <!-- PRODUTOS -->
+            <div class="produtosprod">
+                <div class="prod" id="fogao">
+                    <img class="fogao-atlas" src="./imgs/Fogão_Atlas.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Fogão Atlas 4 Bocas Tropical Glass - Branco</p>
+                    <hr>
+                    <p class="preco-cort">R$ 799,00</p>
+                    <p class="preco-venda">R$ 699,00</p>
                 </div>
-                <!-- PRODUTOS -->
-                <div class="produtosprod">
-                    <div class="prod" id="fogao">
-                        <img class="fogao-atlas" src="./imgs/Fogão_Atlas.jpeg" alt="">
-                        <p class="titulo-prod"style="font-size: 13px;">Fogão Atlas 4 Bocas Tropical Glass - Branco</p>
-                        <hr>    
-                        <p class="preco-cort">R$ 799,00</p>
-                        <p class="preco-venda">R$ 699,00</p>
-                    </div>
-                    <div class="prod" id="fogao">
-                        <img class="fogao-consul" src="./imgs/Fogão_Consul.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Fogão Consul 4 Bocas com Acendimento Automático</p>
-                        <hr>
-                        <p class="preco-cort">R$ 599,00</p>
-                        <p class="preco-venda">R$ 499,00</p>
-                    </div>
-                    <div class="prod" id="geladeira">
-                        <img class="Geladeira_Brastemp_Prata" src="./imgs/Geladeira_Brastemp_Prata.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Geladeira Brastemp Frost Free Inverse - Prata</p>
-                        <hr>
-                        <p class="preco-cort">R$ 6.499,00</p>
-                        <p class="preco-venda">R$ 5.999,00</p>
-                    </div>
-                    <div class="prod" id="geladeira">
-                        <img class="Geladeira_Consul" style="width: 30%;" src="./imgs/Geladeira_Consul.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Geladeira Consul Frost Free - Prata</p>
-                        <hr>
-                        <p class="preco-cort">R$ 4.499,00</p>
-                        <p class="preco-venda">R$ 3.999,00</p>
-                    </div>
-                    <div class="prod" id="geladeira">
-                        <img class="Geladeira_Brastemp_Branca" src="./imgs/Geladeira_Brastemp_Branca.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Geladeira Brastemp Frost Free Inverse - Branca</p>
-                        <hr>
-                        <p class="preco-cort">R$ 5.499,00</p>
-                        <p class="preco-venda">R$ 4.999,00</p>
-                    </div>
-                    <div class="prod" id="freezer">
-                        <img class="Freezer_Electrolux" src="./imgs/Freezer_Electrolux.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Freezer Electrolux FE26 Cycle Defrost - 203L</p>
-                        <hr>
-                        <p class="preco-cort">R$ 1.299,00</p>
-                        <p class="preco-venda">R$ 999,00</p>
-                    </div>
-                    <div class="prod" id="lavaroupa">
-                        <img class="Lava_Roupa_Brastemp" src="./imgs/Lava_Roupa_Brastemp.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar Brastemp e Lavagem mais rápida</p>
-                        <hr>
-                        <p class="preco-cort">R$ 1,699,00</p>
-                        <p class="preco-venda">R$ 1.499,00</p>
-                    </div>
-                    <div class="prod" id="lavaroupa">
-                        <img class="Lava_Roupa_Philco" src="./imgs/Lava_Roupa_Philco.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar Philco e Enxágue rápido</p>
-                        <hr>
-                        <p class="preco-cort">R$ 1.999,00</p>
-                        <p class="preco-venda">R$ 1.999,00</p>
-                    </div>
-                    <div class="prod" id="lavaroupa">
-                        <img class="Lavadoura_Brastemp" src="./imgs/Lavadoura_Brastemp.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar 15kg Enxágue Anti-Alérgico</p>
-                        <hr>
-                        <p class="preco-cort">R$ 2.499,00</p>
-                        <p class="preco-venda">R$ 1.999,00</p>
-                    </div>
-                    <div class="prod" id="microondas">
-                        <img class="Micro_ElectroLux" src="./imgs/Micro_ElectroLux.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Electrolux MEF41 menoe radioativo</p>
-                        <hr>
-                        <p class="preco-cort">R$ 799,00</p>
-                        <p class="preco-venda">R$ 499,00</p>
-                    </div>
-                    <div class="prod" id="microondas">
-                        <img class="Micro_Ondas_Consul" src="./imgs/Micro_Ondas_Consul.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Consul ainda menos radioativo</p>
-                        <hr>
-                        <p class="preco-cort">R$ 899,00</p>
-                        <p class="preco-venda">R$ 699,00</p>
-                         </div>
-                    <div class="prod" id="microondas">
-                        <img class="Micro_Philco" src="./imgs/Micro_Philco.jpeg" alt="">
-                        <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Philco sem radiação 2020</p>
-                        <hr>
-                        <p class="preco-cort">R$ 399,00</p>
-                        <p class="preco-venda">R$ 250,00</p>
-                    </div>
+                <div class="prod" id="fogao">
+                    <img class="fogao-consul" src="./imgs/Fogão_Consul.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Fogão Consul 4 Bocas com Acendimento Automático</p>
+                    <hr>
+                    <p class="preco-cort">R$ 599,00</p>
+                    <p class="preco-venda">R$ 499,00</p>
+                </div>
+                <div class="prod" id="geladeira">
+                    <img class="Geladeira_Brastemp_Prata" src="./imgs/Geladeira_Brastemp_Prata.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Geladeira Brastemp Frost Free Inverse - Prata</p>
+                    <hr>
+                    <p class="preco-cort">R$ 6.499,00</p>
+                    <p class="preco-venda">R$ 5.999,00</p>
+                </div>
+                <div class="prod" id="geladeira">
+                    <img class="Geladeira_Consul" style="width: 30%;" src="./imgs/Geladeira_Consul.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Geladeira Consul Frost Free - Prata</p>
+                    <hr>
+                    <p class="preco-cort">R$ 4.499,00</p>
+                    <p class="preco-venda">R$ 3.999,00</p>
+                </div>
+                <div class="prod" id="geladeira">
+                    <img class="Geladeira_Brastemp_Branca" src="./imgs/Geladeira_Brastemp_Branca.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Geladeira Brastemp Frost Free Inverse - Branca</p>
+                    <hr>
+                    <p class="preco-cort">R$ 5.499,00</p>
+                    <p class="preco-venda">R$ 4.999,00</p>
+                </div>
+                <div class="prod" id="freezer">
+                    <img class="Freezer_Electrolux" src="./imgs/Freezer_Electrolux.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Freezer Electrolux FE26 Cycle Defrost - 203L</p>
+                    <hr>
+                    <p class="preco-cort">R$ 1.299,00</p>
+                    <p class="preco-venda">R$ 999,00</p>
+                </div>
+                <div class="prod" id="lavaroupa">
+                    <img class="Lava_Roupa_Brastemp" src="./imgs/Lava_Roupa_Brastemp.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar Brastemp e Lavagem mais rápida</p>
+                    <hr>
+                    <p class="preco-cort">R$ 1,699,00</p>
+                    <p class="preco-venda">R$ 1.499,00</p>
+                </div>
+                <div class="prod" id="lavaroupa">
+                    <img class="Lava_Roupa_Philco" src="./imgs/Lava_Roupa_Philco.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar Philco e Enxágue rápido</p>
+                    <hr>
+                    <p class="preco-cort">R$ 1.999,00</p>
+                    <p class="preco-venda">R$ 1.999,00</p>
+                </div>
+                <div class="prod" id="lavaroupa">
+                    <img class="Lavadoura_Brastemp" src="./imgs/Lavadoura_Brastemp.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Máquina de Lavar 15kg Enxágue Anti-Alérgico</p>
+                    <hr>
+                    <p class="preco-cort">R$ 2.499,00</p>
+                    <p class="preco-venda">R$ 1.999,00</p>
+                </div>
+                <div class="prod" id="microondas">
+                    <img class="Micro_ElectroLux" src="./imgs/Micro_ElectroLux.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Electrolux MEF41 menoe radioativo</p>
+                    <hr>
+                    <p class="preco-cort">R$ 799,00</p>
+                    <p class="preco-venda">R$ 499,00</p>
+                </div>
+                <div class="prod" id="microondas">
+                    <img class="Micro_Ondas_Consul" src="./imgs/Micro_Ondas_Consul.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Consul ainda menos radioativo</p>
+                    <hr>
+                    <p class="preco-cort">R$ 899,00</p>
+                    <p class="preco-venda">R$ 699,00</p>
+                </div>
+                <div class="prod" id="microondas">
+                    <img class="Micro_Philco" src="./imgs/Micro_Philco.jpeg" alt="">
+                    <p class="titulo-prod" style="font-size: 13px;">Micro-ondas Philco sem radiação 2020</p>
+                    <hr>
+                    <p class="preco-cort">R$ 399,00</p>
+                    <p class="preco-venda">R$ 250,00</p>
                 </div>
             </div>
         </section>
     </main>
 
     <!--RODAPÉ-->
-    <footer class="rodape" style="bottom: -35%;">
+    <footer class="rodape" style="bottom: -48%;">
         <!-- FORMAS DE PAGAMENTO-->
         <hr>
         <p class="logofooter"><img width="25%" src="imgs/pagamentos.jpg"></p>
@@ -147,4 +150,5 @@
         <p class="copyright">© 2020 - Recode Pró - Full-Stack-Eletro</p>
     </footer>
 </body>
+
 </html>
