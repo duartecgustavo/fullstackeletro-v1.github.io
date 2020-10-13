@@ -18,27 +18,31 @@
     <!--MENU-->
     <div class="menu">
         <nav>
-            <a href="index.html"><img style="font-family: Comic Sans MS;" class="iconemain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
-            <a href="produtos.html" target="_blank"><img class="icone" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
-            <a href="lojas.html" target="_blank"><img class="icone" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
-            <a href="contato.html" target="_blank"><img class="icone" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
+            <a href="index.html"><img style="font-family: Comic Sans MS;" class="logomenumain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
+            <a href="produtos.html" target="_blank"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
+            <a href="lojas.html" target="_blank"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
+            <a href="contato.html" target="_blank"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
         </nav>
     </div>
 
  
-    <!-- CORPO DAPAGINA-->
+    <!-- CORPO DA PAGINA-->
     <main>
-        <br> <br> <br> <br> <br>
+        <br> <br> <br> <br>
         <!--LOGO PAGINA-->
         <section class="logo">
-            <p><img width="15%" src="imgs/logo2.png"></p>
-            <hr>
+            <img class="imglogo" src="imgs/logo2.png">
         </section>
 
         <!--CAPA-->
         <section class="capa">
             <div class="banner">
-                <img width="100%" src="imgs/maincapa.jpg">
+                <img class="imagemcapa" id="imagemcapa" width="100%" alt="capa" src="imgs/maincapa.jpg">
+            </div>
+            <div class="maincapadiv">
+                <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa1" class="maincapa">
+                <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa2" class="maincapa">
+                <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa3" class="maincapa">
             </div>
         </section>
 
@@ -66,18 +70,17 @@
         </section>
     </main>
 
-
-
-
     <!--RODAPÉ-->
-    <footer class="rodape" style="bottom: -80%;">
+    <footer class="rodape">
         <!-- FORMAS DE PAGAMENTO-->
         <hr>
-        <p><img width="25%" src="imgs/pagamentos.jpg"></p>
+        <p class="logofooter"><img width="25%" src="imgs/pagamentos.jpg"></p>
 
-        <p style="background-color: white;"><img width="25%" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg"></p>
+        <img width="25%" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">
 
-        <p width="100%" style="font-weight: bold; background-color: white;">© 2020 - Recode Pró - Full-Stack-Eletro</p>
+        <p class="copyright">© 2020 - Recode Pró - Full-Stack-Eletro</p>
     </footer>
+
+    <script src="./JS/eventos.js"></script>
 </body>
 </html>

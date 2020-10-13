@@ -12,3 +12,17 @@ function exibir_categoria(categoria){
 
     }
 }
+
+function trocaCapa(){
+    let capa1 = document.getElementById("maincapa1")
+    let capa2 = document.getElementById("maincapa2")
+    let capa3 = document.getElementById("maincapa3")
+
+    if (capa1.checked){
+        document.getElementById("imagemcapa").src="imgs/maincapa.jpg"
+    } else if (capa2.checked) {
+        document.getElementById("imagemcapa").src="imgs/maincapa2.jpg"
+    } else {
+        document.getElementById("imagemcapa").src="imgs/maincapa3.jpg"
+    }
+}

@@ -1,17 +1,12 @@
 /* ITENS BODY - HEADER - NAV */
 
-html, body {
-    min-height: 100%;
+*{
+    box-sizing: border-box;
+}
+body {
+    --min-height: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    height: 100%;
-}
-
-.menu{
-    position: fixed;
-    background-color: #ba0403;
-    text-align: center;
-    padding: 0 10px 0 10px;
 }
 
 p{
@@ -20,20 +15,69 @@ p{
     text-align: center;
 }
 
-.icone{
-    width: 9%;
-    --border:5px solid violet;
-    padding: 20px 20px 20px 20px;
-    margin: 0px 0px 0px 265px;    
+/* MAIN - MENU - LOGO - CAPA */
+
+/* MENU */
+
+.menu{
+    position: fixed;
+    background-color: #ba0403;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
-.iconemain{
-    width: 9%;
+.logomenu{
+    width: 11%;
+    --border:5px solid violet;
+    padding: 20px 0px 20px 0px;
+    margin: 0px 0px 0px 200px;    
+}
+
+.logomenumain{
+    width: 13%;
     --border:5px solid violet;
     padding: 0px 20px 0px 20px;
+    margin: 0px 0px 4px 0px;
+}
+/* FIM - MENU */
+/* LOGO PAGINAS */
+
+.logo{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 56px 0px 10px 0px;
 }
 
-/* MAIN - FORNS - CAPA */
+.imglogo{
+    width: 10%;
+}
+
+/* FIM - LOGO PAGINAS */
+/* CAPA INDEX */
+
+.imagemcapa{
+    --border: 4px violet solid;
+    width: 100%;
+    height: 820px;
+}
+
+.maincapadiv{
+    margin: -50px 0px 30px 0px;
+    text-align: center;
+    --border: 2px black solid;    
+}
+.maincapa{
+    width: 40px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/* FIM - CAPA INDEX */
 
 .sessoes{
     height: 920px;
@@ -71,9 +115,11 @@ input{
     align-content: center;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+input{
+    text-align: center;
+    width: 400px;
+    height: 25px;
+    align-content: center;
 }
 
 .botao-coment{
@@ -141,8 +187,24 @@ a{
 }
 
 /* FOOTER */
-
 .rodape{
-	position: absolute;	bottom:0;
-	width:100%;
+    --border: 2px violet solid;
+    position: absolute;	
+    width:100%;
+    background-color: #F7F7F7;
+    text-align: center;
+    bottom: -68%;
+
 }
+.logofooter{
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright{
+    font-weight: bold;
+    background-color:  #F7F7F7;
+    width: 100%;
+}
+/* FIM - FOOTER */
