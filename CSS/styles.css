@@ -76,8 +76,52 @@ p{
     padding: 0;
     margin: 0;
 }
-
 /* FIM - CAPA INDEX */
+/* LOGIN */
+
+.login{
+    --border: 4px violet solid;
+    background-color: white;
+    margin-bottom: 0px;
+    height: 250px;
+}
+.logologin{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+.loginform{
+    --border: 4px violet solid;
+    height: 160px;
+}
+.loginlabel {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.logininput{
+    height: 35px;
+}
+.logarlogin{
+    width: 205px;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 10px;
+}
+.logincadastrar{
+    width: 190px;
+    height: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.logincadastrarlink{
+    text-decoration: none;
+    color: black;
+
+}
+/* FIM - LOGIN */
 
 .sessoes{
     height: 920px;
@@ -200,6 +244,7 @@ input{
     background-color: #ba0403;
     width: 100%;
     text-align: center;
+    margin: 0;
 }
 
 .copyright{
