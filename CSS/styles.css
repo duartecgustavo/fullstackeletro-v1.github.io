@@ -278,7 +278,7 @@ body {
 
 /* COLEÇÃO - PRODUTOS */
 .produtosprod{
-    border: 4px violet solid;
+    --border: 4px violet solid;
     text-align: center;
     height: 850px;
     width: 100%;
@@ -290,7 +290,7 @@ body {
     --vertical-align: bottom;
 }
 .prod{
-    border: 2px violet solid;
+    --border: 2px violet solid;
     display: inline-block;
     width: 20%;
     height:260px;
@@ -319,4 +319,5 @@ body {
     font-size: 16px; 
     background-color: white;
     margin: 3px 0px 5px 0px;
+    color: red;
 }

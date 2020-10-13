@@ -1,17 +1,35 @@
+// FUNÇÃO PARA FILTRAR POR CATEGORIA
+
 function exibir_categoria(categoria){
-    //alert(categoria);
     let elementos = document.getElementsByClassName("prod");
-    console.log(elementos)
+    //console.log(elementos)
+
     for(let i = 0; i<elementos.length;i++){
-        console.log(elementos[i].id)
+        //console.log(elementos[i].id)
         if (categoria == elementos[i].id){
             elementos[i].style = "display: inline-block"
         } else {
             elementos[i].style = "display: none"
         }
-
     }
 }
+
+// FUNÇÃO PARA EXIBIR TODOS OS PRODUTOS
+
+function exibir_Todos(categoria){
+    let elementos = document.getElementsByClassName("prod");
+    for(let i = 0; i<elementos.length;i++){
+        //console.log(elementos[i].id)
+            elementos[i].style = "display: inline-block"
+        } 
+    }
+
+function quantidadeCat(categoria){
+    // let ler = document.getElementsByClassName("prod");
+    document.getElementById("quant").innerText(categoria.length)
+
+}
+// FUNÇÃO PARA TROCAR DE CAPA NA HOME
 
 function trocaCapa(){
     let capa1 = document.getElementById("maincapa1")
