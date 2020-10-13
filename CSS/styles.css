@@ -1,5 +1,4 @@
-/* ITENS BODY - HEADER - NAV */
-
+/* BODY */
 *{
     box-sizing: border-box;
 }
@@ -8,16 +7,7 @@ body {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-
-p{
-    background-color: #ba0403;
-    width: 100%;
-    text-align: center;
-}
-
-/* MAIN - MENU - LOGO - CAPA */
-
-/* MENU */
+/* MENU - PADRÃO EM TODAS AS PAGINAS (exceto CADASTRO) */
 
 .menu{
     position: fixed;
@@ -40,9 +30,18 @@ p{
     padding: 0px 20px 0px 20px;
     margin: 0px 0px 4px 0px;
 }
-/* FIM - MENU */
-/* LOGO PAGINAS */
 
+.menucadastro{
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    background-color: #ba0403;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+/* FIM - MENU */
+/* LOGO PAGINAS - CADA PAGINA TEM SEU LOGO PORÉM O TEAMPLATE É PADRÃO */
 .logo{
     --border: 4px violet solid;
     background-color: #ba0403;
@@ -51,14 +50,19 @@ p{
     padding: 10px 10px;
     margin: 56px 0px 10px 0px;
 }
-
 .imglogo{
-    width: 10%;
+    width: 15%;
 }
-
+.logocadastro{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 142px 0px 10px 0px;
+}
 /* FIM - LOGO PAGINAS */
-/* CAPA INDEX */
-
+/* CAPA - HOME/INDEX */
 .imagemcapa{
     --border: 4px violet solid;
     width: 100%;
@@ -77,8 +81,7 @@ p{
     margin: 0;
 }
 /* FIM - CAPA INDEX */
-/* LOGIN */
-
+/* LOGIN HOME/INDEX */
 .login{
     --border: 4px violet solid;
     background-color: white;
@@ -94,6 +97,7 @@ p{
 .loginform{
     --border: 4px violet solid;
     height: 160px;
+    text-align: center;
 }
 .loginlabel {
     display: block;
@@ -102,6 +106,8 @@ p{
 }
 .logininput{
     height: 35px;
+    width: 400px;
+    text-align: center;
 }
 .logarlogin{
     width: 205px;
@@ -118,61 +124,138 @@ p{
 }
 .logincadastrarlink{
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
-
 }
 /* FIM - LOGIN */
-
-.sessoes{
-    height: 920px;
-    width: 20%;
-    background-color: white;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
+/* REDES SOCIAIS - CONTATOS */
+/* FIM - REDES SOCIAIS */
+/* COMENTARIOS - CONTATOS */
+.logocomentarios{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0px 0px 10px 0px;
 }
-
-.sessoes-titulo{
-    font-size: 30px;
-    margin-left: 20px;
-    margin: 30px 20px 30px 20px;
-}
-
-.sessoes-categoria{
-    font-size: 25px;
-    margin-left: 25px;
-    margin: 30px 20px 30px 20px;
-}
-
-form{
+.comentariosform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
-
-label{
-    font-family: Cambria;
-}
-
-input{
-    text-align: center;
+.labelcontatos{
     width: 400px;
-    height: 25px;
-    align-content: center;
+    margin: 3px 0px 0px 0px;
+    --border: 4px violet solid;
+    padding: 0;
 }
-
-input{
-    text-align: center;
+.inputcontatos{
     width: 400px;
-    height: 25px;
-    align-content: center;
+    margin: 2px 0px 5px 0px;
+    height: 35px;
+    text-align: center;
+    --border: 4px violet solid;
+    padding: 0;
 }
-
+.comentarioscontatos{
+    width: 400px;
+    text-align: center;
+    align-content: center;
+    vertical-align: 50%;
+    margin: 5px 0px 5px 0px;
+    font-size: 20px;
+}
 .botao-coment{
+    cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 406px;
+    width: 400px;
     height: 30px;
 }
+/* FIM - COMENTRIOS CONTATOS */
+/* FORM - CADASTRO */
 
-/* SESSÃO DE PRODUTOS */
+.cadastroform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h1cadastro{
+    font-family: Cambria;
+    width: 400px;
+    --border: 4px violet solid;
+}
+.labelcadastro{
+    width: 400px;
+    margin: 10px 0px 0px 0px;
+    --border: 4px violet solid;
+}
+.inputcadastro{
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0px 0px 0px 0px;
+    --border: 2px violet solid;
+}
+.botaocadastrar{
+    font-family: Cambria;
+    width: 400px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+/* FIM - FORM CADASTRO */
+/* TABELA - LOJAS */
+.descontosfrase{
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+.tablediv{
+    --border: 4px violet solid;
+    text-align: center;
+}
+/* FIM - TABELA */
+/* FOOTER - PADRÃO PARA TODAS AS PAGINAS */
+.rodape{
+    --border: 2px violet solid;
+    position: absolute;	
+    width:100%;
+    background-color: #F7F7F7;
+    text-align: center;
+    bottom: -71%;
+
+}
+.logofooter{
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    --border: 2px violet solid;
+}
+
+.imgpag{
+    width: 25%;
+    --border: 2px violet solid;
+    margin-top: 15px;
+}
+.copyright{
+    font-weight: bold;
+    background-color:  #F7F7F7;
+    width: 100%;
+    --border: 2px violet solid;
+}
+/* FIM - FOOTER */
+
+
+
+
+/* PROFUTOS */
 
 .produtos{
     width: 100%;
@@ -230,26 +313,23 @@ input{
     margin: 3px 0px 5px 0px;
 }
 
-/* FOOTER */
-.rodape{
-    --border: 2px violet solid;
-    position: absolute;	
-    width:100%;
-    background-color: #F7F7F7;
-    text-align: center;
-    bottom: -68%;
-
-}
-.logofooter{
-    background-color: #ba0403;
-    width: 100%;
-    text-align: center;
-    margin: 0;
+.sessoes{
+    height: 920px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
 }
 
-.copyright{
-    font-weight: bold;
-    background-color:  #F7F7F7;
-    width: 100%;
+.sessoes-titulo{
+    font-size: 30px;
+    margin-left: 20px;
+    margin: 30px 20px 30px 20px;
 }
-/* FIM - FOOTER */
+
+.sessoes-categoria{
+    font-size: 25px;
+    margin-left: 25px;
+    margin: 30px 20px 30px 20px;
+}

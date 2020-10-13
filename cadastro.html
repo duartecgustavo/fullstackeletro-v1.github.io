@@ -17,59 +17,58 @@
 
     <!-- LOGO PAGINA -->
     <nav>
-        <div style="background-color: #ba0403; width: 100%; align-content: center; text-align: center;">
+        <section class="menucadastro">
             <a href="index.html"><img width="200px" src="imgs/logo3.jpg" alt="HOMEE"></a>
-        </div>
+        </section>
     </nav>
 
-    <!-- Campos de cadastro -->
+    <!-- Campos de cadastro --> 
     <main>
-        <!-- LOGO CADASTRO -->
-        <section class="logo">
-            <p><img width="15%" src="imgs/cadastro.jpg"></p>
+        <!--LOGO PAGINA-->
+        <section class="logocadastro">
+            <img class="imglogo" src="imgs/cadastro.jpg">
         </section>
+
         <section class="cadastro">
-            <form action="" style="text-align: center;">
+            <form class="cadastroform"action="">
 
-                <h1 style="font-family: Cambria;">INFORMAÇÕES PESSOAIS</h1><br>
+                <h1 class="h1cadastro">INFORMAÇÕES PESSOAIS</h1>
 
-                <label for="cadastro">NOME COMPLETO</label><br>
+                <label class="labelcadastro" for="cadastro">NOME COMPLETO</label>
 
-                <input type="text" placeholder="digite seu nome"><br>
+                <input class="inputcadastro" type="text" placeholder="digite seu nome">
 
-                <label for="email">E-MAIL</label><br>
+                <label class="labelcadastro" for="email">E-MAIL</label>
 
-                <input type="text" placeholder="digite seu E-mail"><br>
+                <input class="inputcadastro" type="text" placeholder="digite seu E-mail">
 
-                <label for="senha">SENHA</label><br>
+                <label class="labelcadastro" for="senha">SENHA</label>
 
-                <input type="text" placeholder="digite sua senha"><br>
+                <input class="inputcadastro" type="text" placeholder="digite sua senha">
 
-                <label for="nasc">DATADE NASCIMENTO</label><br>
+                <label class="labelcadastro" for="nasc">DATADE NASCIMENTO</label>
 
-                <input type="date" placeholder="digite sua datade nascimento"><br>
+                <input class="inputcadastro" type="date" placeholder="digite sua datade nascimento">
 
-                <br>
+                <h1 class="h1cadastro">ENDEREÇO</h1>
 
-                <h1 style="font-family: Cambria;">ENDEREÇO</h1><br>
+                <label class="labelcadastro" for="cep">CEP</label>
 
-                <label for="cep">CEP</label><br>
+                <input class="inputcadastro" type="text" placeholder="digite o cep de sua rua">
 
-                <input type="text" placeholder="digite o cep de sua rua"><br>
+                <label class="labelcadastro" for="rua" style="font-family: Cambria;">RUA</label>
 
-                <label for="rua" style="font-family: Cambria;">RUA</label><br>
+                <input class="inputcadastro" type="text" placeholder="digite sua rua">
 
-                <input type="text" placeholder="digite sua rua"><br>
+                <label class="labelcadastro" for="bairro" >BAIRRO</label>
 
-                <label for="bairro" >BAIRRO</label><br>
+                <input class="inputcadastro" type="text" placeholder="digite seu bairro">
 
-                <input type="text" placeholder="digite seu bairro"><br>
+                <label class="labelcadastro" for="cidade">CIDADE/UF</label>
 
-                <label for="cidade">CIDADE/UF</label><br>
+                <input class="inputcadastro" type="text" placeholder="digite sua cidade e UF">
 
-                <input type="text" placeholder="digite sua cidade e UF"><br><br>
-
-                <button style="font-family: Cambria; width: 400px; height: 30px;" class="botao-cadast" type="button" onclick="alert('CADASTRO REALIZADO!')">CADASTRAR</button>
+                <button class="botaocadastrar" class="botao-cadast" type="button" onclick="alert('CADASTRO REALIZADO!')">CADASTRAR</button>
             </form>
         </section>
     </main>
@@ -78,12 +77,12 @@
 
 
     <!--RODAPÉ-->
-    <footer class="rodape">
+    <footer class="rodape" style="bottom: -15%;">
         <!-- FORMAS DE PAGAMENTO-->
         <hr>
         <p class="logofooter"><img width="25%" src="imgs/pagamentos.jpg"></p>
 
-        <img width="25%" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">
+        <img class="imgpag" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">
 
         <p class="copyright">© 2020 - Recode Pró - Full-Stack-Eletro</p>
     </footer>

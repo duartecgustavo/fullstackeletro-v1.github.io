@@ -17,19 +17,18 @@
     <!--MENU-->
     <div class="menu">
         <nav>
-            <a href="index.html" target="_blank"><img class="iconemain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
-            <a href="produtos.html" target="_blank"><img class="icone" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
-            <a href="lojas.html" target="_blank"><img class="icone" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
-            <a href="contato.html"><img class="icone" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
+            <a href="index.html" target="_blank"><img style="font-family: Comic Sans MS;" class="logomenumain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
+            <a href="produtos.html" target="_blank"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
+            <a href="lojas.html" target="_blank"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
+            <a href="contato.html"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
         </nav>
     </div>
 
     <main>
+        <br> <br> <br> <br>
+        <!--LOGO PAGINA-->
         <section class="logo">
-            <!--LOGO PAGINA-->
-            <br>    <br>    <br>    <br>    <br>
-            <p><img width="15%" src="imgs/contatoslogo.jpg"></p>
-            <hr>
+            <img class="imglogo" src="imgs/contatoslogo.jpg">
         </section>
 
         <!--TABELA CONTATOS-->
@@ -51,25 +50,22 @@
         
         <!--ESPAÇO PARA COMENTÁRIO-->
         <section class="comentarios">
-            <p><img width="15%" src="imgs/comentarios.jpg"></p>
-            <form action="">
-                <label for="nome">NOME</label>
-                <br>
-                <input type="text" name="" id="nome" placeholder="digite seu nome">
-                <br>
-                <label for="comentario">E-MAIL</label>
-                <br>
-                <input type="text" name="" id="email" placeholder="digite seu E-mail">
-                <br>
-                <label for="comentario">COMENTARIO</label>
-                <br>
+            <p class="logocomentarios"><img width="15%" src="imgs/comentarios.jpg"></p>
+            <form class="comentariosform" action="">
+                <label class="labelcontatos" for="nome">NOME</label>
+                <input class="inputcontatos" type="text" name="" id="nome" placeholder="digite seu nome">
+                <label class="labelcontatos" for="comentario">E-MAIL</label>
+                <input class="inputcontatos" type="text" name="" id="email" placeholder="digite seu E-mail">
+                <label class="labelcontatos" for="comentario">COMENTARIO</label>
 
-                <textarea name="comentario" 
+                <textarea 
+                name="comentario" 
                 placeholder="digite aqui seu comentário" 
-                id="comentario" cols="30" rows="10"
-                style="width: 400px; text-align: center; align-content: center; vertical-align: ;"></textarea>
+                id="comentario" 
+                class="comentarioscontatos" 
+                cols="30" rows="10">
+                </textarea>
 
-                <br>
                 <button class="botao-coment" type="button" onclick="alert('COMENTÁRIO ENVIADO')">
                     ENVIAR
                 </button>
@@ -78,12 +74,12 @@
     </main>
 
     <!--RODAPÉ-->
-    <footer class="rodape">
+    <footer class="rodape" style="bottom: -15%;">
         <!-- FORMAS DE PAGAMENTO-->
         <hr>
         <p class="logofooter"><img width="25%" src="imgs/pagamentos.jpg"></p>
 
-        <img width="25%" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">
+        <img class="imgpag" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">
 
         <p class="copyright">© 2020 - Recode Pró - Full-Stack-Eletro</p>
     </footer>
