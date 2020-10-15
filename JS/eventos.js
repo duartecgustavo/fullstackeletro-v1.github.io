@@ -29,6 +29,20 @@ function quantidadeCat(categoria){
     document.getElementById("quant").innerText(categoria.length)
 
 }
+
+function aumentar(produto){
+    // let divproduto = document.getElementById("fogaoconsul")
+    if (produto.width == 220) {
+        produto.style="width: 320px; height: 250px; box-shadow: 1px 2px 10px #504545; align-content: top;"
+        // divproduto.style = "padding-top: 90px; border: 2px black solid;"
+    } else {
+        produto.style="width: 220px; height: 170px; padding-top: 0px; box-shadow: none;"
+    }
+}
+// function aumentarimg(produto){
+//     produto.style="width: 280px; height: 250px; box-shadow: 5px 1px 14px #292727; padding: 10px; background-color: white;"
+// }
+
 // FUNÇÃO PARA TROCAR DE CAPA NA HOME
 
 function trocaCapa(){
