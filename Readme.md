@@ -3,13 +3,13 @@
 
 ---
 
-## O que é? 
+## O que é? :bulb:
 
 O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmente feita com as tecnologias aprendidas no curso de FullStack promovido pela Recode Pró.
 
 ---
 
-## Técnologia utilizadas.
+## Técnologia utilizadas :dvd:
 
 - [x] HTML5
 - [x] CSS3
@@ -17,7 +17,7 @@ O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmen
 
 ---
 
-## Implementações
+## Implementações :wrench:
 
 Ao longo de meu processo de aprendizado vou implementar cada vez mais coisas neste site.
 
