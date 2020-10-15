@@ -3,9 +3,11 @@
 
 ---
 
-## O que é? :bulb:
+<h1 align="center"> Oque é? :bulb: </h1>
 
+<div align="center">
 O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmente feita com as tecnologias aprendidas no curso de FullStack promovido pela Recode Pró.
+</div>
 
 ---
 
