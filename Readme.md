@@ -11,6 +11,9 @@ O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmen
 
 ## Técnologia utilizadas :dvd:
 
+
+<div align="center"><img width="45%" src="/Screenshots/screenshoti.png"> <img width="45%" src="/Screenshots/screenshotc.png"><br><br>
+<img width="45%" src="/Screenshots/screenshotp.png"> </div>
 - [x] HTML5
 - [x] CSS3
 - [x] ES6/JS
