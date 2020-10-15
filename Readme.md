@@ -9,7 +9,7 @@ O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmen
 
 ---
 
-<center> Técnologia utilizadas :dvd: </center>
+<h1 align="center"> Técnologia utilizadas :dvd: </h1>
 
 <div align="center">
  <img width="100px" style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/96186484-e07bc300-0f11-11eb-8314-b70c09429536.png">
