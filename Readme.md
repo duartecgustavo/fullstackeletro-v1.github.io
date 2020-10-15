@@ -33,7 +33,9 @@ Ao longo de meu processo de aprendizado vou implementar cada vez mais coisas nes
 - [ ] Estrutura de introdução e remoção de novos produtos.
 
 ## Link para o site: [<img width="30px" src="https://user-images.githubusercontent.com/65131471/96185345-25065f00-0f10-11eb-99a7-4e5abf903a70.jpg">](https://duartecgustavo.github.io/fullstackeletro.github.io/)
- 
-![1 3-1](https://user-images.githubusercontent.com/65131471/93386595-5111c000-f83e-11ea-8bcf-0a00dd2a2a3d.png)
+
+<div align="center">
+<img style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/93386595-5111c000-f83e-11ea-8bcf-0a00dd2a2a3d.png">
+</div>
 
 [:arrow_left:](https://github.com/duartecgustavo)
