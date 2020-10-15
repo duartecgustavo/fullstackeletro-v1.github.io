@@ -32,7 +32,7 @@ Ao longo de meu processo de aprendizado vou implementar cada vez mais coisas nes
 
 ## Link para o site: [:link:](https://duartecgustavo.github.io/fullstackeletro.github.io/)
 
-Cliando aqui você será redirecionado para o site: [<img width="250px" src="https://user-images.githubusercontent.com/65131471/96185345-25065f00-0f10-11eb-99a7-4e5abf903a70.jpg">](https://duartecgustavo.github.io/fullstackeletro.github.io/)
+Cliando aqui você será redirecionado para o site: [<img width="50px" src="https://user-images.githubusercontent.com/65131471/96185345-25065f00-0f10-11eb-99a7-4e5abf903a70.jpg">](https://duartecgustavo.github.io/fullstackeletro.github.io/)
 
 ---
 
