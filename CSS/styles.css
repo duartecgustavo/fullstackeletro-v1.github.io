@@ -65,7 +65,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 10px 10px;
-    margin: 56px 0px 10px 0px;
+    margin: 56px 0px 0px 0px;
 }
 .imglogo{
     width: 15%;
@@ -88,8 +88,9 @@ body {
     --border: 4px violet solid;
     max-width: 100%;
     height: 820px;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all .3s;
+    -moz-transition: all 0.9s;
+    -webkit-transition: all .9s;
+    margin: -10px 0px -10px 0px;
 }
 
 .imagemcapa:hover{
@@ -302,7 +303,7 @@ body {
     width:100%;
     background-color: #F7F7F7;
     text-align: center;
-    bottom: -71%;
+    bottom: -68%;
 }
 .logofooter{
     background-color: #ba0403;
