@@ -33,21 +33,49 @@ function quantidadeCat(categoria){
 function aumentar(produto){
     // let divproduto = document.getElementById("fogaoconsul")
     if (produto.width == 220) {
-        produto.style="width: 320px; height: 250px; box-shadow: 1px 2px 10px #504545; align-content: top;"
+        produto.style="width: 320px; height: 250px; box-shadow: 1px 2px 10px #504545; align-content: top; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         // divproduto.style = "padding-top: 90px; border: 2px black solid;"
-    } else {
-        produto.style="width: 220px; height: 170px; padding-top: 0px; box-shadow: none;"
     }
 }
-// function aumentarimg(produto){
-//     produto.style="width: 280px; height: 250px; box-shadow: 5px 1px 14px #292727; padding: 10px; background-color: white;"
-// }
+function diminuir(produto){
+    if (produto.width == 320){
+        produto.style="width: 220px; height: 170px; padding-top: 0px; box-shadow: none; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    }
+}
 
-// function contintens(){
+// FUNÇÃO DE ANIMAÇÃO REDES SOCIAIS
 
-//     let teste = document.getElementByClassName("contitem")
-//     teste.innerHTML = "10"
-// }
+function sumirLogo(item){
+    let twitter = document.getElementById("logotwitter")
+    let email = document.getElementById("logoemail")
+    let wpp = document.getElementById("logowpp")
+    if(item == document.getElementById("contatotwitter")) {
+        twitter.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatotwitter").style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+
+    } else if (item == document.getElementById("contatoemail")) {
+        email.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatoemail").style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+
+    } else if (item == document.getElementById("contatowpp")) {
+        wpp.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatowpp").style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    }
+}
+function sugirLogo(item){
+    let twitter = document.getElementById("logotwitter")
+    let email = document.getElementById("logoemail")
+    let wpp = document.getElementById("logowpp")
+
+    twitter.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("contatotwitter").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+
+    email.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("contatoemail").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+
+    wpp.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("contatowpp").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+}
 
 
 // FUNÇÃO PARA TROCAR DE CAPA NA HOME
@@ -58,7 +86,7 @@ function trocaCapa(){
     let capa2 = document.getElementById("maincapa2")
     let capa3 = document.getElementById("maincapa3")
 
-    if (capa1.checked){
+    if (capa1.checked) {
         document.getElementById("imagemcapa").src="imgs/maincapa.jpg"
     } else if (capa2.checked) {
         document.getElementById("imagemcapa").src="imgs/maincapa2.jpg"

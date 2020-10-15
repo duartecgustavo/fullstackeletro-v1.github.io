@@ -8,7 +8,9 @@ body {
     padding: 0px 0px 0px 0px;
 }
 /* MENU - PADRÃO EM TODAS AS PAGINAS (exceto CADASTRO) */
-
+.menubar{
+    overflow: hidden;
+}
 .menu{
     position: fixed;
     background-color: #ba0403;
@@ -18,17 +20,32 @@ body {
 }
 
 .logomenu{
-    width: 11%;
+    width: 12%;
     --border:5px solid violet;
     padding: 20px 0px 20px 0px;
     margin: 0px 0px 0px 200px;    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all .3s;
 }
-
+.logomenu:hover{
+    --border: 4px violet solid;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 .logomenumain{
-    width: 13%;
+    max-width: 14%;
     --border:5px solid violet;
     padding: 0px 20px 0px 20px;
     margin: 0px 0px 4px 0px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all .3s;
+}
+.logomenumain:hover{
+    --border: 4px violet solid;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .menucadastro{
@@ -86,16 +103,32 @@ body {
     position: absolute;
     width: 100%;
     height: 100px;
-    bottom: -200px;
+    bottom: -180px;
     text-align: center;
     --border: 2px black solid;    
 }
-.maincapa{
-    display: inline;
-    width: 40px;
+.maincapa[type="radio"]{
+    display: none;
+    --border: 0.5px solid;
+    background-color: hsl(0, 0%, 100%, 0.5);
+    width: 25px;
     height: 25px;
     padding: 0;
-    margin: 0;
+    margin: 0px 20px 0px 20px;
+    
+}
+.maincapa[type="radio"] + label{
+    border: none;
+    background-color:hsl(0, 3%, 16%, 0.6);
+    border-radius: 50%;
+    padding: 10px 18px 10px 18px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+.maincapa[type="radio"] + label:hover{
+    background-color:hsl(0, 97%, 37%, 0.5);
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
 }
 /* FIM - CAPA INDEX */
 /* LOGIN HOME/INDEX */
@@ -147,6 +180,29 @@ body {
 }
 /* FIM - LOGIN */
 /* REDES SOCIAIS - CONTATOS */
+.contatos{
+    --border: 3px violet solid;
+    overflow: hidden;
+    width: 100%;
+    max-height:150px;
+    text-align: center;
+    padding: 0;
+    margin-top: -10px;
+}
+.contatos:hover{
+    overflow: hidden;
+    max-height:150px;
+}
+.contatodivtwitter, .contatodivemail, .contatodivwpp{
+    --border: 1px red solid;
+    font-size: 0;
+    width: 33.45%;
+    height: 150px;
+    margin: -10px -3px -5px -3px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #292727;
+}
 /* FIM - REDES SOCIAIS */
 /* COMENTARIOS - CONTATOS */
 .logocomentarios{
@@ -278,19 +334,30 @@ body {
     height: 75px;
     width: 100%;
     background-color:  #292727;
-    display: block;
+    display: inline-block;
     margin: 0;
-    padding-top: 7px;
+    padding-top: none;
     --border: 4px violet solid;
     text-align: center;
+
 }
 .categoria{
     display: inline-block;
-    padding: 0px 50px;
+    padding: 21px 77px 21px;
+    margin: 0px 0px 12px;
+    vertical-align: center;
     --border: 4px violet solid;
     color: blanchedalmond;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all .5s;
+}
+.categoria:hover{
+    color: rgba(255, 1, 1, 0.747);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* COLEÇÃO - PRODUTOS */
@@ -323,6 +390,8 @@ body {
 .Freezer_Electrolux, .Micro_ElectroLux, .Micro_Ondas_Consul, .Micro_Philco{
     width: 220px;
     height: 170px;
+    /* -moz-transition: linear 0.2s;
+    -webkit-transition: linear  0.2s; */
 }
 
 .produtos .titulo-prod{
@@ -342,3 +411,27 @@ body {
 }
 
 /* FIM - PRODUTOS */
+
+/* .maincapa[type="radio"]{
+    display: none;
+    --border: 0.5px solid;
+    background-color: hsl(0, 0%, 100%, 0.5);
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0px 20px 0px 20px;
+    
+}
+.maincapa[type="radio"] + label{
+    border: none;
+    background-color:hsl(0, 3%, 16%, 0.6);
+    border-radius: 50%;
+    padding: 10px 18px 10px 18px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+.maincapa[type="radio"] + label:hover{
+    background-color:hsl(0, 97%, 37%, 0.5);
+    -webkit-transition: background-color .5s ease;
+    transition: background-color .5s ease;
+} */

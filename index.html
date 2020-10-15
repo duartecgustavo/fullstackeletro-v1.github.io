@@ -17,11 +17,11 @@
 
     <!--MENU-->
     <div class="menu">
-        <nav>
-            <a href="index.html"><img style="font-family: Comic Sans MS;" class="logomenumain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a></td>
-            <a href="produtos.html" target="_blank"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a></td>
-            <a href="lojas.html" target="_blank"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a></td>
-            <a href="contato.html" target="_blank"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a></td>
+        <nav  class="menubar">
+            <a href="index.html"><img style="font-family: Comic Sans MS;" class="logomenumain" width="200px" src="imgs/logo3.jpg" alt="HOME"></a>
+            <a href="produtos.html"><img class="logomenu" width="200px" src="imgs/produtoslogo.jpg" alt="PRODUTOS"></a>
+            <a href="lojas.html"><img class="logomenu" width="200px" src="imgs/lojaslogo.jpg" alt="LOJAS"></a>
+            <a href="contato.html"><img class="logomenu" width="200px" src="imgs/contatoslogo.jpg" alt="CONTATOS"></a>
         </nav>
     </div>
 
@@ -40,9 +40,12 @@
                 <img class="imagemcapa" id="imagemcapa" width="100%" alt="capa" src="imgs/maincapa.jpg">
                 
                 <div class="maincapadiv">
-                    <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa1" class="maincapa">
-                    <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa2" class="maincapa">
-                    <input type="radio" onclick="trocaCapa()" name="maincapa" id="maincapa3" class="maincapa">
+                    <input type="radio" onclick="trocaCapa()" name="mainbtn" id="maincapa1" class="maincapa">
+                    <label for="maincapa1"></label>
+                    <input type="radio" onclick="trocaCapa()" name="mainbtn" id="maincapa2" class="maincapa">
+                    <label for="maincapa2"> </label>
+                    <input type="radio" onclick="trocaCapa()" name="mainbtn" id="maincapa3" class="maincapa">
+                    <label for="maincapa3"> </label>
                 </div>
             </div>
         </section>
