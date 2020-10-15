@@ -9,17 +9,13 @@ O **FullStackEletro** é um projeto de contrução de uma *loja online* totalmen
 
 ---
 
-## Técnologia utilizadas :dvd:
-
+## <center> Técnologia utilizadas :dvd:
 
 <div align="center">
  <img width="100px" style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/96186484-e07bc300-0f11-11eb-8314-b70c09429536.png">
  <img width="100px" style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/96186499-e2458680-0f11-11eb-8e63-2c1531f0ac83.png">
  <img width="100px" style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/96186506-e5407700-0f11-11eb-958a-f1d2339a0074.png">
 </div>
-- [x] HTML5
-- [x] CSS3
-- [x] ES6/JS
 
 ---
 
