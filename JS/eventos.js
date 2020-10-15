@@ -43,7 +43,15 @@ function aumentar(produto){
 //     produto.style="width: 280px; height: 250px; box-shadow: 5px 1px 14px #292727; padding: 10px; background-color: white;"
 // }
 
+// function contintens(){
+
+//     let teste = document.getElementByClassName("contitem")
+//     teste.innerHTML = "10"
+// }
+
+
 // FUNÇÃO PARA TROCAR DE CAPA NA HOME
+
 
 function trocaCapa(){
     let capa1 = document.getElementById("maincapa1")
