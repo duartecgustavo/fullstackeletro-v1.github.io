@@ -1,6 +1,6 @@
 ## FullStackEletro
 
-<div align="center"> <img width="250px" src="![logo3](https://user-images.githubusercontent.com/65131471/96183940-1a4aca80-0f0e-11eb-8d6b-e0125358d4af.jpg)"></div>
+<div align="center"> <img width="250px" src="https://user-images.githubusercontent.com/65131471/96183940-1a4aca80-0f0e-11eb-8d6b-e0125358d4af.jpg"></div>
 
 Aqui neste repositório está hospedado meu **primeirissimo** site em HTML.
 
