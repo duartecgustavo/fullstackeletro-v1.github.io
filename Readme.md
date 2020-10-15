@@ -1,7 +1,5 @@
-## FullStackEletro
-
 <div align="center"> <img width="250px" src="https://user-images.githubusercontent.com/65131471/96183940-1a4aca80-0f0e-11eb-8d6b-e0125358d4af.jpg"></div>
-
+<p align="center"> Aqui programadores tem descontos em <b>TODOS</b> os produtos!</p>
 Aqui neste repositório está hospedado meu **primeirissimo** site em HTML.
 
 Se trata de um projeto da matéria de HTML do curso de FullStack oferecido pela RecodePró.
