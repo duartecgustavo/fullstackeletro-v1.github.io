@@ -52,7 +52,7 @@ function exibir_Todos(categoria){
 
 function aumentar(produto){
     // let divproduto = document.getElementById("fogaoconsul")
-    if (produto.checked) {
+    if (produto.width == 320) {
         produto.style="width: 220px; height: 170px; padding-top: 0px; box-shadow: none; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
     } else {
         produto.style="width: 320px; height: 250px; box-shadow: 1px 2px 10px #504545; align-content: top; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
