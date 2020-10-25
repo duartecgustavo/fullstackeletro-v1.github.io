@@ -12,10 +12,10 @@
 }
 .categoria{
     display: inline-block;
-    padding: 21px 77px 21px;
+    padding: 24px 60px 24px;
     margin: 0px 0px 12px;
     vertical-align: center;
-    --border: 4px violet solid;
+    --border: 1px violet solid;
     color: blanchedalmond;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
