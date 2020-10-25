@@ -1,0 +1,82 @@
+/* MENU LATERAL - PRODUTOS */
+.prodCategoriaBarra{
+    height: 75px;
+    width: 100%;
+    background-color:  #292727;
+    display: inline-block;
+    margin: 0;
+    padding-top: none;
+    --border: 4px violet solid;
+    text-align: center;
+
+}
+.categoria{
+    display: inline-block;
+    padding: 21px 77px 21px;
+    margin: 0px 0px 12px;
+    vertical-align: center;
+    --border: 4px violet solid;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all .5s;
+}
+.categoria:hover{
+    color: rgba(255, 1, 1, 0.747);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* COLEÇÃO - PRODUTOS */
+.produtosprod{
+    --border: 4px violet solid;
+    text-align: center;
+    height: 850px;
+    width: 100%;
+    background-color: white;
+    display:block;
+    margin: 10px 0px 0px 0px;
+    padding: 0%;
+    font-size: 0%;
+    --vertical-align: bottom;
+    
+}
+.prod{
+    --border: 2px rgb(70, 228, 228) solid;
+    display: inline-block;
+    width: 20%;
+    height:260px;
+    background-color: white;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+/* PRODUTO ESPECIFICO */
+.fogao-atlas, .fogao-consul, .Geladeira_Brastemp_Prata, .Geladeira_Consul,
+.Geladeira_Brastemp_Branca,.Lava_Roupa_Brastemp, .Lava_Roupa_Philco, .Lavadoura_Brastemp, 
+.Freezer_Electrolux, .Micro_ElectroLux, .Micro_Ondas_Consul, .Micro_Philco{
+    width: 220px;
+    height: 170px;
+    /* -moz-transition: linear 0.2s;
+    -webkit-transition: linear  0.2s; */
+}
+
+.produtos .titulo-prod{
+    background-color: white;
+}
+.preco-cort{
+    font-size: 12px;
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+    text-decoration: line-through;
+}
+.preco-venda{
+    font-size: 16px; 
+    background-color: white;
+    margin: 3px 0px 5px 0px;
+    color: red;
+}
+
+/* FIM - PRODUTOS */

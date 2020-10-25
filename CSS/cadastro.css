@@ -1,0 +1,46 @@
+/* FORM - CADASTRO */
+
+.cadastroform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.h1cadastro{
+    font-family: Cambria;
+    width: 400px;
+    --border: 4px violet solid;
+}
+.labelcadastro{
+    width: 400px;
+    margin: 10px 0px 0px 0px;
+    --border: 4px violet solid;
+}
+.inputcadastro{
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0px 0px 0px 0px;
+    --border: 2px violet solid;
+}
+.botaocadastrar{
+    font-family: Cambria;
+    width: 400px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+/* FIM - FORM CADASTRO */
+/* TABELA - LOJAS */
+.descontosfrase{
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+.tablediv{
+    --border: 4px violet solid;
+    text-align: center;
+}
+/* FIM - TABELA */

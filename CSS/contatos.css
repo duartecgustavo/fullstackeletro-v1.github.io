@@ -1,0 +1,71 @@
+/* REDES SOCIAIS - CONTATOS */
+.contatos{
+    --border: 3px violet solid;
+    overflow: hidden;
+    width: 100%;
+    max-height:150px;
+    text-align: center;
+    padding: 0;
+    margin-top: -10px;
+}
+.contatos:hover{
+    overflow: hidden;
+    max-height:150px;
+}
+.contatodivtwitter, .contatodivemail, .contatodivwpp{
+    --border: 1px red solid;
+    font-size: 0;
+    width: 33.45%;
+    height: 150px;
+    margin: -10px -3px -5px -3px;
+    display: inline-block;
+    vertical-align: bottom;
+    background-color: #292727;
+}
+/* FIM - REDES SOCIAIS */
+
+/* COMENTARIOS - CONTATOS */
+.logocomentarios{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0px 0px 10px 0px;
+}
+.comentariosform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.labelcontatos{
+    width: 400px;
+    margin: 3px 0px 0px 0px;
+    --border: 4px violet solid;
+    padding: 0;
+}
+.inputcontatos{
+    width: 400px;
+    margin: 2px 0px 5px 0px;
+    height: 35px;
+    text-align: center;
+    --border: 4px violet solid;
+    padding: 0;
+}
+.comentarioscontatos{
+    width: 400px;
+    text-align: center;
+        
+    vertical-align: 50%;
+    margin: 5px 0px 5px 0px;
+    font-size: 20px;
+}
+.botao-coment{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 400px;
+    height: 30px;
+}
+/* FIM - COMENTRIOS CONTATOS */
