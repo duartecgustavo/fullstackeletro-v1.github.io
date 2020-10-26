@@ -23,7 +23,7 @@
     -webkit-transition: all .5s;
 }
 .categoria:hover{
-    color: rgba(255, 1, 1, 0.747);
+    color: #ff0101be;
     -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);

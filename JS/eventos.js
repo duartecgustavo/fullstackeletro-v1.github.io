@@ -79,33 +79,56 @@ function sumirLogo(item){
     let twitter = document.getElementById("logotwitter")
     let email = document.getElementById("logoemail")
     let wpp = document.getElementById("logowpp")
+    let cmt = document.getElementById("logoimg")
+    
     if(item == document.getElementById("contatotwitter")) {
         twitter.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.getElementById("contatotwitter").style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.body.style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("logocontdiv").style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatos").style="background-color: #1DA1F2; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
 
     } else if (item == document.getElementById("contatoemail")) {
         email.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.getElementById("contatoemail").style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.body.style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("logocontdiv").style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatos").style="background-color: #78b4e2; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
 
     } else if (item == document.getElementById("contatowpp")) {
         wpp.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.getElementById("contatowpp").style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.body.style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("logocontdiv").style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        document.getElementById("contatos").style="background-color: #4CEC66; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+        
+    } else if (item == document.getElementById("comentarios_back")) {
+        cmt.style="display: none; -webkit-transition: linear  0.5s; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
+        document.getElementById("divimgaemsvg").style="-webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
+        document.getElementById("comentariosform").style="display: flex; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
+        document.getElementById("comentarios_back").style="display: flex; background-color: #c4b2b2; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
     }
 }
-
+//#78b4e2#4CEC66;
 // FUNÇÃO PARA APARECER TEXTO DAS REDES SOCIAIS
 
 function sugirLogo(item){
     let twitter = document.getElementById("logotwitter")
     let email = document.getElementById("logoemail")
     let wpp = document.getElementById("logowpp")
+    let cmt = document.getElementById("logoimg")
 
-    twitter.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    twitter.style="width: 90px; height: 90px; display: inline-block; margin-top: 70px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
     document.getElementById("contatotwitter").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.body.style="background-color: #292727; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("logocontdiv").style="background-color: #292727; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("contatos").style=" background-color: #292727; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
 
-    email.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-    document.getElementById("contatoemail").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    email.style="width: 90px; height: 90px; display: inline-block; margin-top: 70px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.body.style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
 
-    wpp.style="width: 90px; height: 90px; display: inline-block; margin-top: 30px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    wpp.style="width: 90px; height: 90px; display: inline-block; margin-top: 70px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
     document.getElementById("contatowpp").style="backgroung-color: white; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+
+    cmt.style="width: 450px; display: inline-block; margin-top: 35px; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
+    document.getElementById("divimgaemsvg").style=" -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
+    document.getElementById("comentariosform").style="display: none; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
+    document.getElementById("comentarios_back").style="display: flex; background-color:  #292727; -webkit-transition: linear  0.5s; -moz-transition: linear 0.5s;"
 }

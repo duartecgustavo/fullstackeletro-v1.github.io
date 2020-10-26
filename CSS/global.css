@@ -6,6 +6,7 @@ body {
     --min-height: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    background-color: #292727;
 }
 
 /* MENU - PADRÃO EM TODAS AS PAGINAS (exceto CADASTRO) */

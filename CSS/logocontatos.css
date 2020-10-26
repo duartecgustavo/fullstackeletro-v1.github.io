@@ -1,0 +1,19 @@
+.logocontdiv{
+    display: flex;
+    justify-content: center;
+    background-color: #292727;
+    align-content: center;
+    width: 100%;
+}
+.plogo{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    border-radius: 0px 0px 50% 50%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 56px 0px 0px 0px;
+}
+.imglogocont{
+    width: 15%;
+}
