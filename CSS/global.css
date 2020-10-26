@@ -6,7 +6,7 @@ body {
     --min-height: 100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    background-color: #292727;
+    --background-color: #292727;
 }
 
 /* MENU - PADRÃO EM TODAS AS PAGINAS (exceto CADASTRO) */
@@ -15,6 +15,7 @@ body {
 }
 .menu{
     position: fixed;
+    z-index: 5;
     background-color: #ba0403;
     text-align: center;
     padding: 10px 0px 10px 0px;
@@ -98,9 +99,9 @@ body {
     --border: 2px violet solid;
 }
 .imgpag{
-    width: 25%;
+    width: 30%;
     --border: 2px violet solid;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .copyright{
     font-weight: bold;

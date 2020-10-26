@@ -23,7 +23,7 @@
     position: absolute;
     width: 100%;
     height: 100px;
-    bottom: -180px;
+    bottom: -8rem;
     text-align: center;
     --border: 2px black solid;    
 }
@@ -53,50 +53,96 @@
 /* FIM - CAPA INDEX */
 
 /* LOGIN HOME/INDEX */
-.login{
+
+/* BARRA LOGIN */
+
+.loginbar{
     --border: 4px violet solid;
-    background-color: white;
-    margin-bottom: 0px;
-    height: 250px;
+    --background-color:  #bfb2c4;
+    margin-bottom: 20px;
+    height: 595px;
 }
 .logologin{
     --border: 4px violet solid;
     background-color: #ba0403;
     width: 100%;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
 }
-.loginform{
+
+/* ----------//----------- */
+
+.logincontent{
+    --border: 2px rgb(27, 211, 67) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-color: #ba0303b4;
+}
+.imglogin{
     --border: 4px violet solid;
-    height: 160px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.imglogin img{
+    position: relative;
+    z-index: 4;
+    width:750px;
+}
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    --border: 2px red solid;
+    border-radius: 40px 0px 0px 40px;
+    background-color:  #292727;
+    width: 60%;
+    height: 450px;
     text-align: center;
 }
 .loginlabel {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 500px;
+    margin: 5px 0px 5px 0px;
+    border: none;
+    border-radius: 10px;
+    color: seashell;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
 }
 .logininput{
     height: 35px;
-    width: 400px;
+    width: 500px;
     text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .logarlogin{
-    width: 205px;
+    width: 500px;
     cursor: pointer;
-    height: 35px;
-    margin-top: 10px;
-}
-.logincadastrar{
-    width: 190px;
-    height: 35px;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
+    height: 40px;    border: none;
+    border-radius: 10px;
+    background-color: #CE4D4D;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .logincadastrarlink{
+    margin-top: 10px;
+    padding-right: 265px;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: seashell;
 }
 /* FIM - LOGIN */

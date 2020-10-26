@@ -83,19 +83,16 @@ function sumirLogo(item){
     
     if(item == document.getElementById("contatotwitter")) {
         twitter.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.body.style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("logocontdiv").style="background-color: #1DA1F2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("contatos").style="background-color: #1DA1F2; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-
+    
     } else if (item == document.getElementById("contatoemail")) {
         email.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.body.style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("logocontdiv").style="background-color: #78b4e2; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("contatos").style="background-color: #78b4e2; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
 
     } else if (item == document.getElementById("contatowpp")) {
         wpp.style="display: none; -webkit-transition: linear  0.2s; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
-        document.body.style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("logocontdiv").style="background-color: #4CEC66; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         document.getElementById("contatos").style="background-color: #4CEC66; max-height: 200px; -webkit-transition: linear  0.2s; -moz-transition: linear 0.2s;"
         

@@ -51,30 +51,34 @@
         </section>
 
         <!--LOGIN-->
-        <section class="login">
+        <section class="loginbar">
             <p class="logologin"><img width="15%" src="imgs/login.jpg"></p>
 
-            <form class="loginform" action="" method="p">
-                <label class="loginlabel" for="email">E-MAIL</label>
+            <div class="logincontent">
+                <p class="imglogin"><img src="imgs/imglogin.svg"></p>
 
-                <input class="logininput" type="text" placeholder="digite seu E-mail">
+                <form class="loginform" action="" method="p">
+                    <label class="loginlabel" for="email">E-MAIL</label>
 
-                <label class="loginlabel" for="senha">SENHA</label>
+                    <input class="logininput" type="text" placeholder="digite seu E-mail">
 
-                <input class="logininput" type="password" placeholder="digite sua senha">
-                <br/>
-                <button class="logarlogin" type="submit" onclick="alert('Função indisponivel.')">LOGAR</button>
-                <button class="logincadastrar"><a class="logincadastrarlink" href="cadastro.html" target="_blank" >CADASTRAR</a></button>
-            </form>
+                    <label class="loginlabel" for="senha">SENHA</label>
+
+                    <input class="logininput" type="password" placeholder="digite sua senha">
+                    <br/>
+                    <button class="logarlogin" type="submit" onclick="alert('Função indisponivel.')">LOGAR</button>
+                    <a class="logincadastrarlink" href="cadastro.html" target="_blank" >não tem cadastro? Clique Aqui!</a>
+                </form>
+            </div>
         </section>
     </main>
 
     <!--RODAPÉ-->
-    <footer class="rodape">
+    <footer class="rodape" style="position: relative;">
         <!-- FORMAS DE PAGAMENTO-->
         <p class="logofooter"><img width="25%" src="imgs/pagamentos.jpg"></p>
 
-        <img class="imgpag" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamento.jpeg">    
+        <img class="imgpag" alt="Formas_De_Pagamento" title="Formas De Pagamento" src="imgs/pagamentos.png">    
 
         <p class="copyright">© 2020 - Recode Pró - Full-Stack-Eletro</p>
     </footer>

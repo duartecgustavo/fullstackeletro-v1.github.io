@@ -18,10 +18,32 @@
     background-color: transparent;
     font-size: 0;
     width: 33.45%;
-    height: 200px;
+    max-height: 200px;
     margin: -10px -3px -5px -3px;
     display: inline-block;
     vertical-align: bottom;
+}
+
+.logocontdiv{
+    display: flex;
+    justify-content: center;
+    background-color: #292727;
+    align-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+}
+.plogo{
+    --border: 4px violet solid;
+    background-color: #ba0403;
+    width: 100%;
+    --border-radius: 0px 0px 50% 50%;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 56px 0px 0px 0px;
+}
+.imglogocont{
+    width: 15%;
 }
 /* FIM - REDES SOCIAIS */
 
@@ -37,7 +59,6 @@
     --border: 4px violet solid;
     background-color: #ba0403;
     width: 100%;
-    border-radius: 50% 50% 0% 0%;
     text-align: center;
     padding: 10px 10px;
     margin: 0px 0px 0px 0px;
@@ -45,12 +66,12 @@
 
 .comentarios_back{
     --border: 4px violet solid;
-    background-color:  #292727;
+    background-color:#292727;
     display: flex;
     justify-content: center;
     align-content: center;
     text-align: center;
-    height: 600px;
+    height: 525px;
 }
 .divimgaemsvg img{
     --border: 4px violet solid;
@@ -59,28 +80,28 @@
 }
 
 .comentariosform{
+    --border: 4px violet solid;
     display: none;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     margin-top: 22px;
-    --border: 4px violet solid;
 }
 .estiloform{
     display: none;
 }
 .labelcontatos{
+    --border: 4px violet solid;
     width: 500px;
     color:   #292727;
     font-weight: bold;
     margin: 4px 0px 4px 0px;
     letter-spacing: 5px;
     border-radius: 6px;
-    --border: 4px violet solid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0;
 }
 .inputcontatos{
+    --border: 4px violet solid;
     width: 500px;
     margin: 2px 0px 5px 0px;
     height: 35px;
@@ -88,27 +109,26 @@
     border-radius: 6px;
     border: none;
     background-color:   #ffffffc2;
-    --border: 4px violet solid;
-    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .comentarioscontatos{
     width: 500px;
     text-align: center;
     vertical-align: 50%;
     margin: 5px 0px 5px 0px;
-    background-color:   #ffffffc2;
+    background-color:#ffffffc2;
     border-radius: 6px;
     border: none;
     font-size: 20px;
 }
 .botao-coment{
     cursor: pointer;
-    background-color: #ba0403;
+    background-color:#ba0403;
     border-radius: 6px;
     border: 0px;
     margin-top: 4px;
     font-size: 30px;
-    color:   #292727;
+    color:#292727;
     letter-spacing: 3px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
