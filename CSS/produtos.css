@@ -28,7 +28,27 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-
+.pedido{
+    position: absolute;
+    display: inline-block;
+    padding: 24px 40px 24px;
+    margin: 0px 0px 5px;
+    height: 75px;
+    right: 0px;
+    vertical-align: center;
+    background-color: #c54b4b;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all .5s;
+}
+.pedido:hover{
+    color: #250d0dbe;
+    -moz-transform: scale(1.5);
+    /* -webkit-transform: scale(1.5); */
+    /* transform: scale(1.5); */
+}
 /* COLEÇÃO - PRODUTOS */
 .produtosprod{
     --border: 4px violet solid;

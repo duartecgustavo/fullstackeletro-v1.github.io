@@ -1,0 +1,61 @@
+.corpo{
+    display: flex;
+    height: 64vh;
+    width: 100vw;
+    background: #CE4D4D;
+}
+.corpo .c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #292727;
+    border-radius: 0% 10% 10% 0%;
+    height: 56vh;
+    width: 45vw;
+}
+.corpo .c2{
+    background: #CE4D4D;
+    height: 70vh;
+    width: 55vw;
+}
+.formPedido{
+    align-items: center;
+    margin: -25px 0px 5px 0px;
+}
+.formPedido label{
+    display: block;
+    width: 600px;
+    margin: 5px 0px 5px 0px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+}
+.formPedido input{
+    height: 40px;
+    width: 600px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.valorProd{
+    border: none;
+    border-radius: 10px;
+    margin-top: -6px;
+    background: blanchedalmond;
+    width: 600px;
+    height: 40px;
+}
+.corpo h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    font-size: 50px;
+}
