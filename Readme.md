@@ -23,11 +23,11 @@ O FullStackEletro é um projeto de contrução de uma loja virtual totalmente fe
  <img width="100px" style="margin: 10px 40px 10px 40px;" src="https://user-images.githubusercontent.com/65131471/96186506-e5407700-0f11-11eb-958a-f1d2339a0074.png">
 </div>
 
-//
-
-Todo código desta primeira versão é puro, ou seja, o CSS e o JS foram usados sem o uso de qualquer **biblioteca** ou **framework**.
-Além disso está versão não possui qualquer tipo de conexão com banco de dados ou responsividade.
-
+* HTML - puro.
+* CSS - puro.
+* Javascript - puro.
+> Todo código desta primeira versão é puro, ou seja, o CSS e o JS foram usados sem o uso de qualquer **biblioteca** ou **framework**.
+> Além disso está versão não possui qualquer tipo de conexão com banco de dados ou responsividade.
 
 ---
 
