@@ -23,17 +23,12 @@ O FullStackEletro é um projeto de contrução de uma loja virtual totalmente fe
 
 ## Implementações :wrench:
 
-Ao longo de meu processo de aprendizado vou implementar cada vez mais coisas neste site.
+Nesta primeira versão do FullStackEletro implementei o básico que aprendi das técnologias acima.
 
 - [x] Diversos efeitos de CSS fazendo os detalhes do site.
 - [x] Adicionado funções em JavaScript em diversas parte do código.
 - [x] Favicon e imgaens totalmente autorais.
-- [x] Efeitos de animação no banner da homepage, nos icones e na pagina de contatos.
-- [ ] Responsividade do site (bootstrap).
-- [ ] Versão mobile.
-- [ ] Ligação com banco de dados.
-- [ ] Estrutura de introdução e remoção de novos produtos.
-
+- [x] Efeitos de animação no banner da homepage, icones e na pagina de contatos.
 
 ### Link para o site: [<img width="30px" src="https://user-images.githubusercontent.com/65131471/96185345-25065f00-0f10-11eb-99a7-4e5abf903a70.jpg">](https://duartecgustavo.github.io/fullstackeletro.github.io/)
 
